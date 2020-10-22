@@ -3,3 +3,5 @@
 
 CMakeFiles/intro.dir/main.c.obj: ../main.c
 
+CMakeFiles/intro.dir/test.c.obj: ../test.c
+

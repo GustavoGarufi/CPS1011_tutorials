@@ -79,6 +79,12 @@
 		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/main.c">
 			<Option target="intro"/>
 		</Unit>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/main.h">
+			<Option target="intro"/>
+		</Unit>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/test.c">
+			<Option target="intro"/>
+		</Unit>
 		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
