@@ -31,28 +31,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca11d2c4-adf9-4d2c-a20d-71321c970c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/paper_inventory.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intro.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intro.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intro.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intro.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/q2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/q2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/q4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/q4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper_inventory.c" beforeDir="false" afterPath="$PROJECT_DIR$/paper_inventory.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q2.c" beforeDir="false" afterPath="$PROJECT_DIR$/q2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q2.h" beforeDir="false" afterPath="$PROJECT_DIR$/q2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q4.c" beforeDir="false" afterPath="$PROJECT_DIR$/q4.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +99,8 @@
       <workItem from="1603397927056" duration="4566000" />
       <workItem from="1603644287026" duration="10079000" />
       <workItem from="1603667664184" duration="1189000" />
+      <workItem from="1603722824924" duration="573000" />
+      <workItem from="1603727379379" duration="4777000" />
     </task>
     <servers />
   </component>
@@ -136,25 +124,29 @@
       <screen x="-1080" y="-430" width="1080" height="1890" />
     </state>
     <state x="-760" y="256" key="FileChooserDialogImpl/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603656726188" />
-    <state width="1037" height="290" key="GridCell.Tab.0.bottom" timestamp="1603697959275">
-      <screen x="-1080" y="-430" width="1080" height="1890" />
+    <state width="1877" height="140" key="GridCell.Tab.0.bottom" timestamp="1603731858776">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1037" height="290" key="GridCell.Tab.0.bottom/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959275" />
+    <state width="1877" height="140" key="GridCell.Tab.0.bottom/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603731858776" />
     <state width="1037" height="285" key="GridCell.Tab.0.bottom/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352164" />
-    <state width="1037" height="290" key="GridCell.Tab.0.center" timestamp="1603697959275">
-      <screen x="-1080" y="-430" width="1080" height="1890" />
+    <state width="1877" height="140" key="GridCell.Tab.0.center" timestamp="1603731858776">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1037" height="290" key="GridCell.Tab.0.center/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959275" />
+    <state width="1877" height="140" key="GridCell.Tab.0.center/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603731858776" />
     <state width="1037" height="285" key="GridCell.Tab.0.center/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352163" />
-    <state width="1037" height="290" key="GridCell.Tab.0.left" timestamp="1603697959274">
-      <screen x="-1080" y="-430" width="1080" height="1890" />
+    <state width="1877" height="140" key="GridCell.Tab.0.left" timestamp="1603731858776">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1037" height="290" key="GridCell.Tab.0.left/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959274" />
+    <state width="1877" height="140" key="GridCell.Tab.0.left/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603731858776" />
     <state width="1037" height="285" key="GridCell.Tab.0.left/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352158" />
-    <state width="1037" height="290" key="GridCell.Tab.0.right" timestamp="1603697959275">
-      <screen x="-1080" y="-430" width="1080" height="1890" />
+    <state width="1877" height="140" key="GridCell.Tab.0.right" timestamp="1603731858776">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1037" height="290" key="GridCell.Tab.0.right/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959275" />
+    <state width="1877" height="140" key="GridCell.Tab.0.right/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603731858776" />
     <state width="1037" height="285" key="GridCell.Tab.0.right/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352163" />
     <state width="1037" height="688" key="GridCell.Tab.1.bottom" timestamp="1603667648292">
       <screen x="-1080" y="-430" width="1080" height="1890" />
@@ -180,9 +172,17 @@
       <screen x="-1080" y="-430" width="1080" height="1890" />
     </state>
     <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603656733739" />
+    <state x="593" y="345" key="Registry" timestamp="1603729584680">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="593" y="345" key="Registry/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603729584680" />
     <state x="237" y="0" width="590" height="1138" maximized="true" key="dock-window-1" timestamp="1603667572290">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="237" y="0" width="590" height="1138" maximized="true" key="dock-window-1/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603667572290" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603729571771">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603729571771" />
   </component>
 </project>
