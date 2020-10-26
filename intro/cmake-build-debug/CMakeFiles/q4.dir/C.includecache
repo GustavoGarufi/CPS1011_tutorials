@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/q4.c
+stdio.h
+-
+q4.h
+C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/q4.h
+
+C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/q4.h
+

@@ -130,44 +130,138 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named intro
+# Target rules for targets named q2
 
 # Build rule for target.
-intro: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 intro
-.PHONY : intro
+q2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 q2
+.PHONY : q2
 
 # fast build rule for target.
-intro/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\intro.dir\build.make CMakeFiles/intro.dir/build
-.PHONY : intro/fast
+q2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q2.dir\build.make CMakeFiles/q2.dir/build
+.PHONY : q2/fast
 
-main.obj: main.c.obj
+#=============================================================================
+# Target rules for targets named q4
 
-.PHONY : main.obj
+# Build rule for target.
+q4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 q4
+.PHONY : q4
+
+# fast build rule for target.
+q4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q4.dir\build.make CMakeFiles/q4.dir/build
+.PHONY : q4/fast
+
+mathstuff.obj: mathstuff.c.obj
+
+.PHONY : mathstuff.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\intro.dir\build.make CMakeFiles/intro.dir/main.c.obj
-.PHONY : main.c.obj
+mathstuff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q2.dir\build.make CMakeFiles/q2.dir/mathstuff.c.obj
+.PHONY : mathstuff.c.obj
 
-main.i: main.c.i
+mathstuff.i: mathstuff.c.i
 
-.PHONY : main.i
+.PHONY : mathstuff.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\intro.dir\build.make CMakeFiles/intro.dir/main.c.i
-.PHONY : main.c.i
+mathstuff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q2.dir\build.make CMakeFiles/q2.dir/mathstuff.c.i
+.PHONY : mathstuff.c.i
 
-main.s: main.c.s
+mathstuff.s: mathstuff.c.s
 
-.PHONY : main.s
+.PHONY : mathstuff.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\intro.dir\build.make CMakeFiles/intro.dir/main.c.s
-.PHONY : main.c.s
+mathstuff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q2.dir\build.make CMakeFiles/q2.dir/mathstuff.c.s
+.PHONY : mathstuff.c.s
+
+paper_inventory.obj: paper_inventory.c.obj
+
+.PHONY : paper_inventory.obj
+
+# target to build an object file
+paper_inventory.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q4.dir\build.make CMakeFiles/q4.dir/paper_inventory.c.obj
+.PHONY : paper_inventory.c.obj
+
+paper_inventory.i: paper_inventory.c.i
+
+.PHONY : paper_inventory.i
+
+# target to preprocess a source file
+paper_inventory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q4.dir\build.make CMakeFiles/q4.dir/paper_inventory.c.i
+.PHONY : paper_inventory.c.i
+
+paper_inventory.s: paper_inventory.c.s
+
+.PHONY : paper_inventory.s
+
+# target to generate assembly for a file
+paper_inventory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q4.dir\build.make CMakeFiles/q4.dir/paper_inventory.c.s
+.PHONY : paper_inventory.c.s
+
+q2.obj: q2.c.obj
+
+.PHONY : q2.obj
+
+# target to build an object file
+q2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q2.dir\build.make CMakeFiles/q2.dir/q2.c.obj
+.PHONY : q2.c.obj
+
+q2.i: q2.c.i
+
+.PHONY : q2.i
+
+# target to preprocess a source file
+q2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q2.dir\build.make CMakeFiles/q2.dir/q2.c.i
+.PHONY : q2.c.i
+
+q2.s: q2.c.s
+
+.PHONY : q2.s
+
+# target to generate assembly for a file
+q2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q2.dir\build.make CMakeFiles/q2.dir/q2.c.s
+.PHONY : q2.c.s
+
+q4.obj: q4.c.obj
+
+.PHONY : q4.obj
+
+# target to build an object file
+q4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q4.dir\build.make CMakeFiles/q4.dir/q4.c.obj
+.PHONY : q4.c.obj
+
+q4.i: q4.c.i
+
+.PHONY : q4.i
+
+# target to preprocess a source file
+q4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q4.dir\build.make CMakeFiles/q4.dir/q4.c.i
+.PHONY : q4.c.i
+
+q4.s: q4.c.s
+
+.PHONY : q4.s
+
+# target to generate assembly for a file
+q4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\q4.dir\build.make CMakeFiles/q4.dir/q4.c.s
+.PHONY : q4.c.s
 
 # Help Target
 help:
@@ -177,10 +271,20 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... intro
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... q2
+	@echo ... q4
+	@echo ... mathstuff.obj
+	@echo ... mathstuff.i
+	@echo ... mathstuff.s
+	@echo ... paper_inventory.obj
+	@echo ... paper_inventory.i
+	@echo ... paper_inventory.s
+	@echo ... q2.obj
+	@echo ... q2.i
+	@echo ... q2.s
+	@echo ... q4.obj
+	@echo ... q4.i
+	@echo ... q4.s
 .PHONY : help
 
 
