@@ -17,8 +17,8 @@
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="intro">
-				<Option output="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/intro.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="q2">
+				<Option output="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/q2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -30,14 +30,14 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 intro"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 q2"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="intro/fast">
-				<Option output="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/intro.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="q2/fast">
+				<Option output="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/q2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -49,7 +49,7 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 intro/fast"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 q2/fast"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -60,6 +60,44 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="q4">
+				<Option output="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/q4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 q4"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="q4/fast">
+				<Option output="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/q4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 q4/fast"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -76,14 +114,23 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/main.c">
-			<Option target="intro"/>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/mathstuff.c">
+			<Option target="q2"/>
 		</Unit>
-		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/main.h">
-			<Option target="intro"/>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/paper_inventory.c">
+			<Option target="q4"/>
 		</Unit>
-		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/test.c">
-			<Option target="intro"/>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/q2.c">
+			<Option target="q2"/>
+		</Unit>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/q2.h">
+			<Option target="q2"/>
+		</Unit>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/q4.c">
+			<Option target="q4"/>
+		</Unit>
+		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/q4.h">
+			<Option target="q4"/>
 		</Unit>
 		<Unit filename="C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

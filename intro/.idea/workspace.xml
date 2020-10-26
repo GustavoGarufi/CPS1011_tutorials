@@ -20,7 +20,8 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="intro" targetName="intro" />
+      <config projectName="intro" targetName="q2" />
+      <config projectName="intro" targetName="q4" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,13 +31,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca11d2c4-adf9-4d2c-a20d-71321c970c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_inventory.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/intro.dir/cmake_clean.cmake" afterDir="false" />
@@ -50,7 +51,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/intro.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intro.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/intro.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intro.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +81,13 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.q4">
+    <configuration name="q2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="intro" TARGET_NAME="q2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="intro" RUN_TARGET_NAME="q2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="intro" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="intro" TARGET_NAME="intro" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="intro" RUN_TARGET_NAME="intro">
+    <configuration name="q4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="intro" TARGET_NAME="q4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="intro" RUN_TARGET_NAME="q4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,6 +97,10 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.q2" />
+      <item itemvalue="CMake Application.q4" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +110,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603397925920</updated>
-      <workItem from="1603397927056" duration="2770000" />
+      <workItem from="1603397927056" duration="4566000" />
+      <workItem from="1603644287026" duration="10079000" />
+      <workItem from="1603667664184" duration="1189000" />
     </task>
     <servers />
   </component>
@@ -121,23 +129,60 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1037" height="285" key="GridCell.Tab.0.bottom" timestamp="1603400030200">
+    <state x="-760" y="256" key="FileChooserDialogImpl" timestamp="1603656726188">
       <screen x="-1080" y="-430" width="1080" height="1890" />
     </state>
-    <state width="1037" height="285" key="GridCell.Tab.0.bottom/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603400030200" />
-    <state width="1037" height="285" key="GridCell.Tab.0.center" timestamp="1603400030200">
+    <state x="-760" y="256" key="FileChooserDialogImpl/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603656726188" />
+    <state width="1037" height="290" key="GridCell.Tab.0.bottom" timestamp="1603697959275">
       <screen x="-1080" y="-430" width="1080" height="1890" />
     </state>
-    <state width="1037" height="285" key="GridCell.Tab.0.center/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603400030200" />
-    <state width="1037" height="285" key="GridCell.Tab.0.left" timestamp="1603400030200">
+    <state width="1037" height="290" key="GridCell.Tab.0.bottom/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959275" />
+    <state width="1037" height="285" key="GridCell.Tab.0.bottom/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352164" />
+    <state width="1037" height="290" key="GridCell.Tab.0.center" timestamp="1603697959275">
       <screen x="-1080" y="-430" width="1080" height="1890" />
     </state>
-    <state width="1037" height="285" key="GridCell.Tab.0.left/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603400030200" />
-    <state width="1037" height="285" key="GridCell.Tab.0.right" timestamp="1603400030200">
+    <state width="1037" height="290" key="GridCell.Tab.0.center/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959275" />
+    <state width="1037" height="285" key="GridCell.Tab.0.center/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352163" />
+    <state width="1037" height="290" key="GridCell.Tab.0.left" timestamp="1603697959274">
       <screen x="-1080" y="-430" width="1080" height="1890" />
     </state>
-    <state width="1037" height="285" key="GridCell.Tab.0.right/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603400030200" />
+    <state width="1037" height="290" key="GridCell.Tab.0.left/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959274" />
+    <state width="1037" height="285" key="GridCell.Tab.0.left/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352158" />
+    <state width="1037" height="290" key="GridCell.Tab.0.right" timestamp="1603697959275">
+      <screen x="-1080" y="-430" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="290" key="GridCell.Tab.0.right/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603697959275" />
+    <state width="1037" height="285" key="GridCell.Tab.0.right/1920.-433.1080.1890/0.0.1920.1050/-1080.-430.1080.1890@-1080.-430.1080.1890" timestamp="1603443352163" />
+    <state width="1037" height="688" key="GridCell.Tab.1.bottom" timestamp="1603667648292">
+      <screen x="-1080" y="-430" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.bottom/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603667648292" />
+    <state width="1037" height="688" key="GridCell.Tab.1.center" timestamp="1603667648292">
+      <screen x="-1080" y="-430" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.center/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603667648292" />
+    <state width="1037" height="688" key="GridCell.Tab.1.left" timestamp="1603667648292">
+      <screen x="-1080" y="-430" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.left/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603667648292" />
+    <state width="1037" height="688" key="GridCell.Tab.1.right" timestamp="1603667648292">
+      <screen x="-1080" y="-430" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.right/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603667648292" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1603656733739">
+      <screen x="-1080" y="-430" width="1080" height="1890" />
+    </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603656733739" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1603656733739">
+      <screen x="-1080" y="-430" width="1080" height="1890" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603656733739" />
+    <state x="237" y="0" width="590" height="1138" maximized="true" key="dock-window-1" timestamp="1603667572290">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="237" y="0" width="590" height="1138" maximized="true" key="dock-window-1/1920.-433.1080.1890/-1080.-430.1080.1890/0.0.1920.1050@-1080.-430.1080.1890" timestamp="1603667572290" />
   </component>
 </project>

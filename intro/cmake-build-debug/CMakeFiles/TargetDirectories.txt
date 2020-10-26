@@ -1,3 +1,4 @@
-C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/CMakeFiles/intro.dir
+C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/CMakeFiles/q2.dir
 C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/CMakeFiles/q4.dir
 C:/Users/gusga/OneDrive/Documentos/university/Coding Projects/CPS1011_tutorials/intro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
