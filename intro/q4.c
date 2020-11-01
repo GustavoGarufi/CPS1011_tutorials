@@ -3,6 +3,8 @@
 
 int main(void){
 
+    setvbuf(stdout, NULL, _IONBF, 0);
+
 
     // base stock outside of loop to not rest each iteration
 
@@ -52,7 +54,7 @@ int main(void){
 
         paper_a3 = paper_leftover(order_a3, paper_a3);
         paper_a4 = paper_leftover(order_a4, paper_a4);
-        paper_a5 = paper_leftover(order_a5, paper_a4);
+        paper_a5 = paper_leftover(order_a5, paper_a5);
 
 
         //adding dummy loading test to make program look more natural

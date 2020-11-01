@@ -4,9 +4,11 @@
 int main(void)
 {
 
+    setvbuf(stdout, NULL, _IONBF, 0);
+
     // initializing variables
-    int x;
-    int y;
+    int x = 0;
+    int y = 0;
 
     // storing the first number
 
