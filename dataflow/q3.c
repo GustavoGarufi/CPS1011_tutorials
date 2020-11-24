@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int convert_floor(float x) {
     return int(x);

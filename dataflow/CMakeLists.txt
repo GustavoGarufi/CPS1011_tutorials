@@ -7,11 +7,12 @@ add_executable(dataflow main.c q3.c)
 
 add_executable(q2 q2.c q2.h)
 
+#program 3 is not working
 add_executable(q3 q3.c q3.c)
 
 add_executable(q4 q4.c)
 
-#add_executable(q5 q5.c)
+add_executable(q5 q5.c)
 
 add_executable(q6 q6.c q6.c)
 
