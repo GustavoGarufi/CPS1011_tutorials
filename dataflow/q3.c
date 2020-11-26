@@ -17,9 +17,10 @@ int main(){
 
     printf("Enter a float: ");
 
-    scanf("%f", float_input);
+    scanf("%f", &float_input);
 
-    printf("your floor is: %d", convert_floor(float_input));
+    printf("your floor is: %f", convert_floor(float_input));
 
+    printf("your floor is: %d", round_up(float_input));
 
 }
