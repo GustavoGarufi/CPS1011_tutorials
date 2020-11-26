@@ -5,13 +5,12 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(controlflow main.c)
 
-add_executable(q2 q2.c q2.c)
+add_executable(q2 q2.c)
 
 add_executable(q3 q3.c)
 
-#skipped exercise 4
+add_executable(q4 q4.c)
 
-#couldn't finish exercise
 add_executable(q5 q5.c)
 
-add_executable(q6 q6.c q6.c)
+add_executable(q6 q6.c)
