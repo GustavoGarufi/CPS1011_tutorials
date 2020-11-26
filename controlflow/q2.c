@@ -6,12 +6,16 @@
 
 int main() {
 
+    setvbuf(stdout, NULL, _IONBF, 0);
+
     int user_number = 0;
 
     printf("Please enter a number greater then 0 to calculate the factorial of:\n");
 
     scanf("%d", &user_number);
+
     // checks to see if number is greater then zero
+
     if(user_number > 0) {
         //once the loop is initialize I make my variables
         int i = 1;
